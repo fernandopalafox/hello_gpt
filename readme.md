@@ -1,9 +1,13 @@
-# hello_GPT 
+# hello_GPT.py 
 
-My code through working 
+This repo includes code from following Andrej Karpathy's [intro to generatively pre-trained transformers (GPTs)](https://www.youtube.com/watch?v=kCc8FmEb1nY). `bigram.py` is a script to define, train, and a run decoder-only transformer. Training data are Shakespeare's writing and the output is a 500-token prediction given a new-line character.
+
+I wrote about what I learned on my website [here](https://palafox.info/research/). 
+
+Here as a sample output.
 
 ```
-python bigram.py
+> python bigram.py
 using device cuda
 step 0: train loss 4.2846, val loss 4.2823
 step 500: train loss 1.8571, val loss 1.9660
@@ -38,3 +42,6 @@ At Henry, farewell! Prince Edward.
 DUKE VINCENTIO:
 Come, come hither, my lord.
 ```
+
+# hello_x series
+This repo is part of a series where I familiarize myself with a new package, library, or technique.
